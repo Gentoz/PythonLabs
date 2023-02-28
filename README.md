@@ -1,2 +1,2 @@
 # PythonLabs
-Labs for university.
+Labs for university
