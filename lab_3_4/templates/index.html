@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Анкета</title>
+</head>
+<body>
+    <h1>Анкета</h1>
+    <form action="/submit" method="post">
+        {% for question in questions %}
+        <p>{{ question }}</p>
+        <input type="text" name="{{ question }}" required>
+        {% endfor %}
+        <br>
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>

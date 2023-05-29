@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Результаты</title>
+</head>
+<body>
+    <h1>Результаты</h1>
+    <p>Ваши ответы:</p>
+    <ul>
+        {% for answer in answers %}
+        <li>{{ answer }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
